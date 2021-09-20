@@ -1,0 +1,108 @@
+#body-header{
+    height: 65vh;
+    background-image: url(images/resumebackground2.jpg);
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.95;
+    
+}
+/*----header and icons-----------*/
+#body-header h1{
+    color: rgb(252, 247, 247);
+    font-size: 3.2rem;
+    font-family: sans-serif;
+    
+    
+    text-transform: capitalize;
+    font-weight: 700;
+    
+}
+#name-social-container{
+    margin-top: 20vh;
+}
+.social-icons li a i{
+    border-radius: 30%;
+    
+    font-size: 2rem;
+    padding: 5px;
+    
+}
+.social-icons li a i:hover{
+    /*box-shadow: 0px 0px 8px 8px#b4b4b4;*/
+    box-shadow: 0px 0px 5px 5px ;
+    color: white;
+}
+/*---common----------*/
+.text-center{
+    text-align: center;
+}
+
+/*--------------horizontal-list-----------*/
+.horizontal-list{
+    
+    list-style: none;
+    
+}
+.horizontal-list li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+.border-bottom li:hover{
+    border-bottom: 2px solid rgb(235, 226, 226);
+}
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ;
+    font-size: 1.7rem;
+    font-family: sans-serif;
+    
+    
+}
+.horizontal-list li a:hover{
+    color: rgb(184, 181, 181);
+    
+}
+/*----------------about------------------------*/
+#about{
+    
+    height: auto;
+    width: 100%;
+    
+}
+#my-image{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+    position: relative;
+    
+}
+#my-image img{
+   height: 100%;
+   width: 100%;
+    border: 4px solid rgb(247, 244, 244);
+    border-radius: 50%;
+    box-shadow: 0px 0px 4px 1px white;
+    
+}
+#about p{
+    font-size: 1.4rem;
+    text-align: justify;
+    font-family: sans-serif;
+    padding-left: 13%;
+    padding-right: 13%;
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 3%;
+    color: #616161
+}
+#about p span{
+    color: rgb(6, 6, 117);
+    font-weight: 600;
+}
+/*---------------------------------*/
+#experience{
+    height: 1000px;
+}
